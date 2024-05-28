@@ -1,1 +1,1 @@
-export const xd = 'mhx'
+export * from "./types";

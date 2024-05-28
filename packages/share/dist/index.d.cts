@@ -1,3 +1,8 @@
-const xd = "mhx";
+interface CallbackInsertRequest {
+    signature: string;
+    timestamp: string;
+    nonce: string;
+    echostr: string;
+}
 
-export { xd };
+export type { CallbackInsertRequest };
